@@ -10,4 +10,4 @@ def get_count_users(data:dict) -> int:
     Returns:
         int: number of users
     """
-    
+    return  len(data["results"])
